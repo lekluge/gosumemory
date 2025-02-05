@@ -5,10 +5,10 @@ import (
 	"time"
 
 	"github.com/k0kubun/pp"
-	"github.com/l3lackShark/gosumemory/memory"
+	"github.com/lekluge/gosumemory/memory"
 )
 
-//SetupStructure sets up ws and json output
+// SetupStructure sets up ws and json output
 func SetupStructure() {
 	var err error
 	type wsStruct struct { //order sets here

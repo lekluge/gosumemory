@@ -14,7 +14,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/l3lackShark/gosumemory/mem"
+	"github.com/lekluge/gosumemory/mem"
 	"github.com/spf13/cast"
 )
 

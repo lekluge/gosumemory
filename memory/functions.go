@@ -13,7 +13,7 @@ import (
 	"github.com/spf13/cast"
 
 	"github.com/k0kubun/pp"
-	"github.com/l3lackShark/gosumemory/mem"
+	"github.com/lekluge/gosumemory/mem"
 )
 
 func modsResolver(xor uint32) string {

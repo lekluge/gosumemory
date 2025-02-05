@@ -18,7 +18,7 @@ You can contact us here: https://discord.gg/8enr4qD
 
 # Usage
      
-1. [Download the latest Release](https://github.com/l3lackShark/gosumemory/releases/latest)
+1. [Download the latest Release](https://github.com/lekluge/gosumemory/releases/latest)
     * Unzip files anywhere
     > In the root folder of the program, you can find the **static** directory. It contains all of the available counters. Those are getting streamed via HTTP-File server
 
@@ -31,7 +31,7 @@ You can contact us here: https://discord.gg/8enr4qD
 
 # Does this work in-game?
 
-Yes! see [this](https://github.com/l3lackShark/gosumemory/wiki/GameOverlay)
+Yes! see [this](https://github.com/lekluge/gosumemory/wiki/GameOverlay)
 
 
 # Included counters:
@@ -187,14 +187,14 @@ By: [cyperdark][2]<br>
 
 gosumemory streams WebSocket data to **ws://localhost:24050/ws** that you can use in any programming language to develop a frontend. We recommend JavaScript though, as it's much easier to make something pretty with the Web framework. All of the included counters are good starting points. There is also http://localhost:24050/json that you can open in a web browser to see the available data. We strongly recommend against sending GET requests to that address in production, please **use WebSocket instead**.
 
-**[Example JSON and a little wiki of it's values](https://github.com/l3lackShark/gosumemory/wiki/JSON-values)**
+**[Example JSON and a little wiki of it's values](https://github.com/lekluge/gosumemory/wiki/JSON-values)**
 
 # What if I don't know any programming languages but still want to output data to OBS?
 https://www.youtube.com/watch?v=8ApXBEO5bes 
 
 # How do I submit a pp counter?
 
-Head over to [static](https://github.com/l3lackShark/static) and create a pull request there. If it's good quality, then it will get approved and included in the next release.
+Head over to [static](https://github.com/lekluge/static) and create a pull request there. If it's good quality, then it will get approved and included in the next release.
 
 # Tournament Client
 
@@ -224,8 +224,8 @@ Please note that Linux builds are not well tested and could contain crashes. Rep
 
 * [Piotrekol](https://github.com/Piotrekol/) and his [ProcessMemoryDataFinder](https://github.com/Piotrekol/ProcessMemoryDataFinder) for most of the memory signatures
 * [Francesco149](https://github.com/Francesco149) and his [oppai-ng](https://github.com/Francesco149/oppai-ng) for the pp calculator that we use
-* [tdeo](https://github.com/tadeokondrak) for the [Memory Signature Scanner](https://github.com/l3lackShark/gosumemory/tree/master/mem) package
-* [omkelderman](https://github.com/omkelderman) for helping out with the [db](https://github.com/l3lackShark/gosumemory/tree/master/db) package
+* [tdeo](https://github.com/tadeokondrak) for the [Memory Signature Scanner](https://github.com/lekluge/gosumemory/tree/master/mem) package
+* [omkelderman](https://github.com/omkelderman) for helping out with the [db](https://github.com/lekluge/gosumemory/tree/master/db) package
 * [jamuwu](https://github.com/jamuwu/osu-strain) and his [osu-strain](https://github.com/jamuwu/osu-strain) for difficulty strain logic
 * [cyperdark](https://github.com/cyperdark) and [Dartandr](https://github.com/Dartandr) for frontend designs
-* [KotRik](https://github.com/KotRikD) for making an [OBS Script](https://github.com/l3lackShark/gosumemory-helpers/blob/master/gosumemory-reader.py) and porting legacy counters
+* [KotRik](https://github.com/KotRikD) for making an [OBS Script](https://github.com/lekluge/gosumemory-helpers/blob/master/gosumemory-reader.py) and porting legacy counters

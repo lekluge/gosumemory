@@ -8,13 +8,13 @@ import (
 
 	"github.com/spf13/cast"
 
-	"github.com/l3lackShark/gosumemory/config"
+	"github.com/lekluge/gosumemory/config"
 
-	"github.com/l3lackShark/gosumemory/mem"
-	"github.com/l3lackShark/gosumemory/memory"
-	"github.com/l3lackShark/gosumemory/pp"
-	"github.com/l3lackShark/gosumemory/updater"
-	"github.com/l3lackShark/gosumemory/web"
+	"github.com/lekluge/gosumemory/mem"
+	"github.com/lekluge/gosumemory/memory"
+	"github.com/lekluge/gosumemory/pp"
+	"github.com/lekluge/gosumemory/updater"
+	"github.com/lekluge/gosumemory/web"
 )
 
 func main() {

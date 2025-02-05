@@ -8,7 +8,7 @@ require (
 	github.com/gorilla/websocket v1.4.2
 	github.com/k0kubun/colorstring v0.0.0-20150214042306-9440f1994b88 // indirect
 	github.com/k0kubun/pp v3.0.1+incompatible
-	github.com/l3lackShark/config v0.0.0-20201023014929-236482b96fde
+	github.com/lekluge/config v0.0.0-20250205204319-fc7156df9c80 // indirect
 	github.com/lekluge/gosu-pp v0.0.0-20250205195118-57680b4340d7 // indirect
 	github.com/mattn/go-colorable v0.1.11 // indirect
 	github.com/rhysd/go-github-selfupdate v1.2.3

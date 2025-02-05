@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/l3lackShark/gosumemory/memory"
+	"github.com/lekluge/gosumemory/memory"
 
 	"github.com/k0kubun/pp"
 )
@@ -93,12 +93,12 @@ type timingPoint struct {
 	inheritedTimingPoint bool
 }
 
-//OsuDB is a structure representation of osu!.db file
+// OsuDB is a structure representation of osu!.db file
 var OsuDB osudb
 
 var internalDB osudb
 
-//InitDB initializes osu database and gets data within it
+// InitDB initializes osu database and gets data within it
 func InitDB() error {
 	fmt.Println("[DB] Awaiting memory data...")
 	for memory.DynamicAddresses.IsReady != true {

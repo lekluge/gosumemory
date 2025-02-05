@@ -14,7 +14,7 @@ import (
 	"strings"
 )
 
-//Injct dll into osu's process
+// Injct dll into osu's process
 func Injct(pid int) error {
 	if runtime.GOOS != "windows" {
 		return errors.New("Gameoverlay only works under windows")
@@ -46,7 +46,7 @@ func Injct(pid int) error {
 	if err != nil {
 		return err
 	}
-	fmt.Println("[GAMEOVERLAY] Initialized successfully, see https://github.com/l3lackShark/gosumemory/wiki/GameOverlay for tutorial")
+	fmt.Println("[GAMEOVERLAY] Initialized successfully, see https://github.com/lekluge/gosumemory/wiki/GameOverlay for tutorial")
 	return nil
 }
 

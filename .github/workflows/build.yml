@@ -23,7 +23,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y gcc-mingw-w64-x86-64 gcc-mingw-w64-i686
 
       - name: Clone static repository
-        run: git clone https://github.com/l3lackShark/static
+        run: git clone https://github.com/lekluge/static
 
       - name: Build for Windows amd64
         run: CC=x86_64-w64-mingw32-gcc CGO_ENABLED=1 GOOS=windows GOARCH=amd64 go build -o gosumemory.exe

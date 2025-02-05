@@ -15,8 +15,8 @@ github.com/k0kubun/pp v3.0.1+incompatible/go.mod h1:GWse8YhT0p8pT4ir3ZgBbfZild3t
 github.com/kr/pretty v0.1.0/go.mod h1:dAy3ld7l9f0ibDNOQOHHMYYIIbhfbHSm3C4ZsoJORNo=
 github.com/kr/pty v1.1.1/go.mod h1:pFQYn66WHrOpPYNljwOMqo10TkYh1fy3cYio2l3bCsQ=
 github.com/kr/text v0.1.0/go.mod h1:4Jbv+DJW3UT/LiOwJeYQe1efqtUx/iVham/4vfdArNI=
-github.com/l3lackShark/config v0.0.0-20201023014929-236482b96fde/go.mod h1:ga9kHvMOqz3nFftshR6URgGs1C2fXFX2QBruGbgT1wg=
-github.com/lekluge/gosu-pp v0.0.0-20250205195118-57680b4340d7 h1:6+p9XDqjuo3U8mod12EcsyNcR4ndIHFk4BWhDiFwvaQ=
+github.com/lekluge/config v0.0.0-20250205204319-fc7156df9c80 h1:a6dJaWANuCzdnJPLH21iTW7CoFyMQMkk/GyAl64AKho=
+github.com/lekluge/config v0.0.0-20250205204319-fc7156df9c80/go.mod h1:7qjkNlR1x2ocLsw2N0M0CVCkWLitCeVXzgTNE5C1V8g=
 github.com/lekluge/gosu-pp v0.0.0-20250205195118-57680b4340d7/go.mod h1:cP10zLMpPNg2jAOLe4gVZezvpLYFr6GyT7b/OsFDiqA=
 github.com/mattn/go-colorable v0.1.11/go.mod h1:u5H1YNBxpqRaxsYJYSkiCWKzEfiAb1Gb520KVy5xxl4=
 github.com/mattn/go-isatty v0.0.14/go.mod h1:7GGIvUiUoEMVVmxf/4nioHXj79iQHKdU27kJ6hsGG94=
