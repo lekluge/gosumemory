@@ -10,9 +10,9 @@ import (
 	"unsafe"
 
 	"github.com/k0kubun/pp"
-	"github.com/lekluge/gosu-pp/beatmap"
-	"github.com/lekluge/gosu-pp/beatmap/difficulty"
-	"github.com/lekluge/gosu-pp/performance/osu"
+	"gosu-pp/beatmap"
+	"beatmap/difficulty"
+	"performance/osu"
 	"github.com/lekluge/gosumemory/memory"
 	"github.com/spf13/cast"
 )
