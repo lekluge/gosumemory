@@ -9,11 +9,11 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/Wieku/gosu-pp/beatmap"
-	"github.com/Wieku/gosu-pp/beatmap/difficulty"
-	"github.com/Wieku/gosu-pp/performance/osu"
 	"github.com/k0kubun/pp"
 	"github.com/l3lackShark/gosumemory/memory"
+	"github.com/lekluge/pp/beatmap"
+	"github.com/lekluge/pp/beatmap/difficulty"
+	"github.com/lekluge/pp/performance/osu"
 	"github.com/spf13/cast"
 )
 
